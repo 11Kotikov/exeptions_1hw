@@ -61,7 +61,7 @@ public class Main {
             ;
             b = 2_147_483_647;
             ;
-            prod = a * b;
+            prod = a + b;
             System.out.println(prod);
         } catch (ArithmeticException e) {
             System.out.println("From -2 147 483 647 to 2 147 483 647" + e.getMessage());
